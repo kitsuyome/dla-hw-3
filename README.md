@@ -15,15 +15,22 @@ An attempt was made to reproduce the results of the research and achieve high-qu
 Clone the repository and install dependencies:
 
 ```
-
+!git clone https://github.com/kitsuyome/dla-hw-3
+%cd dla-hw-3
+!pip install -r requirements.txt
 ```
 
 ## Test
 
-Run the setup script to download checkpoint and test model:
-
+Run the setup script to download the model checkpoint, test the model, and generate WAV audio files from the texts in the 'test_data' directory.
 
 ```
+!python setup.py
+!python test.py \
+  -c test_data/config.json \
+  -r test_data/checkpoint.pth \
+  -t test_data/texts.txt \
+  -o test_data
 ```
 
 ## Reproduce Training
@@ -31,6 +38,7 @@ Run the setup script to download checkpoint and test model:
 Run the script to reproduce training:
 
 ```
+!python train.py -c tts/configs/config.json
 ```
 
 ## Results & Scores
