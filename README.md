@@ -15,6 +15,7 @@ An attempt was made to reproduce the results of the research and achieve high-qu
 Clone the repository and install dependencies:
 
 ```
+
 ```
 
 ## Test
@@ -35,3 +36,7 @@ Run the script to reproduce training:
 ## Results & Scores
 
 ## Test audio
+
+## License
+
+[MIT License](LICENSE)
