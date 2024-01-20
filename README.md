@@ -45,6 +45,8 @@ Run the script to reproduce training:
 
 ## Test audio
 
+To explore the generated audio with various configurations (alterations in pitch, speed, and energy), please refer to the [Wandb report]()
+
 ## License
 
 [MIT License](LICENSE)
