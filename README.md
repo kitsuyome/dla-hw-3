@@ -41,8 +41,6 @@ Run the script to reproduce training:
 !python train.py -c tts/configs/config.json
 ```
 
-## Results & Scores
-
 ## Test audio
 
 To explore the generated audio with various configurations (alterations in pitch, speed, and energy), please refer to the [Wandb report](https://api.wandb.ai/links/kitsuyomi/3jgyk8uk)
