@@ -8,7 +8,7 @@ An attempt was made to reproduce the results of the research and achieve high-qu
 
 ## Report
 
-[Wandb link]()
+[Wandb link](https://api.wandb.ai/links/kitsuyomi/3jgyk8uk)
 
 ## Installation
 
@@ -45,7 +45,7 @@ Run the script to reproduce training:
 
 ## Test audio
 
-To explore the generated audio with various configurations (alterations in pitch, speed, and energy), please refer to the [Wandb report]()
+To explore the generated audio with various configurations (alterations in pitch, speed, and energy), please refer to the [Wandb report](https://api.wandb.ai/links/kitsuyomi/3jgyk8uk)
 
 ## License
 
